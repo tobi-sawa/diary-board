@@ -22,7 +22,7 @@ from wordcount import count_words
 from fastapi.middleware.cors import CORSMiddleware
 
 # Database URL
-DATABASE_URL = "mysql+pymysql://root:6213ryoy@127.0.0.1/main"
+DATABASE_URL = "mysql+pymysql://root:@127.0.0.1/main"
 # FastAPI app
 app = FastAPI()
 
